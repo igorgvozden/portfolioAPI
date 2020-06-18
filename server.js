@@ -50,7 +50,7 @@ async function sendEmail(userEmail, messageTxt, hour, day, month) {
   
 //   sendEmail().catch(console.error);
 
-app.get('/', (req, res) => {res.send('it is working')});
+app.get('https://git.heroku.com/sleepy-brook-88390.git/', (req, res) => {res.send('it is working')});
 
 app.post('/sendemail', (req, res) => {
     const { emailAddress, message} = req.body;
